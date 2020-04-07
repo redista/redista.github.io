@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- 
+    Author:             Ronnie Conlon, S00200671
+    Date Created:       02/02/2020
+    Page Description:   Home page of Company sales web site
+    Modified:           02/02/2020 -->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Bookstore" />
+    <meta name="keywords" content="Book, Store, Bookstore" />
+    <meta name="author" content="Ronnie Conlon" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <title> Bookstore </title>
+</head>
+
+<body>
+    <header>
+        <a id="home" class="top-nav-option" href="index.html">
+            <img id="header-logo" class="logo" src="images/logo.jpg" alt="logo" />
+            <p id="logo-text">Bookstore</p>
+        </a>
+        <nav>
+            <ul>
+                <li><a class="top-nav-option" href="index.html"> Bestselling </a> </li>
+                <li><a class="top-nav-option" href="index.html"> New Arrivals </a> </li>
+                <li><a class="top-nav-option" href="index.html"> Categories </a> </li>
+                <li><a class="top-nav-option" href="aboutus.html"> About us </a> </li>
+                <li><a class="top-nav-option" href="contact.html"> Contact </a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contact-section">
+            <h1 class="contact-text"> Contact form </h1>
+            <p class="contact-text">
+                Use this contact form if you have any inquiries with us. Fields with a *(asterisk) are required for submitting.
+            </p>
+            <form id="contact-form" action="http://year1.ccpdev.me/FormTest.php" method="post">
+                <label for="first_name"> First name:<span class="required"></span></label>
+                <input type="text" name="first_name" id="first_name" autofocus required><br>
+                <label for="last_name"> Last name:<span class="required"></span></label>
+                <input type="text" name="last_name" id="last_name" required><br>
+                <label for="email"> Email:<span class="required"></span></label>
+                <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+                
+                    <label for="gender"> Gender:</label>
+                    <input type="radio" name="gender" id="gender" value="male"> Male
+                    <input type="radio" name="gender" id="gender" value="female"> Female
+                    <input type="radio" name="gender" id="gender" value="other" checked> Other <br>
+                    <label for="internet"> Heard of us:</label>
+                    <fieldset>
+                        <input type="checkbox" name="intenet" id="internet" value="internet" checked> Internet <br>
+                        <input type="checkbox" name="paper" class="marginl" id="hear" value="paper" checked> Newspaper <br>
+                        <input type="checkbox" name="friend" class="marginl" id="hear" value="friend" checked> Friend <br>
+                        <input type="checkbox" name="Add" class="marginl" id="hear" value="Add" checked> Others <br>
+                    </fieldset>
+                    <br>
+                    <label for="message">Query: </label>
+                    <textarea cols="40" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea> <br>
+                    <input type="submit" name="submit" id="Button" value="Submit">
+                    <input type="reset" name="reset" id="Reset">
+            </form>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>

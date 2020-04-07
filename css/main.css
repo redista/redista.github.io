@@ -38,7 +38,6 @@ nav ul li, .book-list-item {
     padding-bottom: 20px;
 }
 
-
 .book-list-item {
     width: 20%;
     display: inline-block;
@@ -69,4 +68,103 @@ h1 {
 
 .book-list {
     display: block;
+}
+
+#storeFront {
+    width: 40%;
+    height: 50%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+#aboutus h1 {
+    text-align: center;
+}
+
+#aboutus p {
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+#contact-text {
+    margin: 0px;
+}
+
+#contact-text a {
+    margin: 0px;
+    text-decoration: solid underline;
+    color:black;
+}
+
+#contact-form header p {
+    position: relative;
+    top: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+#contact-form body {
+    font-family: sans-serif;
+    background-image: url(../images/Saint_Peters.jpg);
+    margin: 10px;
+    background-size: cover;
+}
+
+#contact-form main {
+    margin: 15px 200px;
+    padding: 20px;
+    border: solid black;
+    background: white;
+    min-height: 500px;
+}
+
+#contact-form .required {
+    font-weight: bold;
+    color: red;
+}
+
+#contact-form label {
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+#contact-form input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+}
+
+#contact-form input[type="radio"] {
+    width: 10px;
+}
+
+#contact-form input[type="checkbox"] {
+    width: 15px;
+}
+
+#contact-form #Button {
+    margin-left: 138px;
+}
+
+#contact-form #Button,#contact-form #Reset {
+    margin-top: .5em;
+    width: 8em;
+    background-color: orange;
+    border: 2px solid black;
+}
+
+#contact-form #indicate-required {
+    text-emphasis: both;
+}
+
+#contact-section {
+    margin: 30px 25% 0px 25%;
+}
+
+.contact-text p {
+    text-align: center;
 }
