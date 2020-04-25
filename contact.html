@@ -24,11 +24,11 @@
         </a>
         <nav>
             <ul>
-                <li><a class="top-nav-option" href="index.html"> Bestselling </a> </li>
-                <li><a class="top-nav-option" href="index.html"> New Arrivals </a> </li>
-                <li><a class="top-nav-option" href="index.html"> Categories </a> </li>
+                <li><a class="top-nav-option" href="bestselling.html"> Bestselling </a> </li>
+                <li><a class="top-nav-option" href="newarrivals.html"> New Arrivals </a> </li>
+                <li><a class="top-nav-option" href="categories.html"> Categories </a> </li>
                 <li><a class="top-nav-option" href="aboutus.html"> About us </a> </li>
-                <li><a class="top-nav-option" href="contact.html"> Contact </a> </li>
+                <li id="current" ><a class="top-nav-option" href="contact.html"> Contact </a> </li>
             </ul>
         </nav>
     </header>
@@ -36,7 +36,7 @@
         <section id="contact-section">
             <h1 class="contact-text"> Contact form </h1>
             <p class="contact-text">
-                Use this contact form if you have any inquiries with us. Fields with a *(asterisk) are required for submitting.
+                Use this contact form if you have any inquiries with us.
             </p>
             <form id="contact-form" action="http://year1.ccpdev.me/FormTest.php" method="post">
                 <label for="first_name"> First name:<span class="required"></span></label>
@@ -63,9 +63,24 @@
                     <input type="submit" name="submit" id="Button" value="Submit">
                     <input type="reset" name="reset" id="Reset">
             </form>
+            <p style="margin-left: 138px"> <span class="required"></span> <em><b> indicates a required field </b></em></p>
+            <style>
+                .required:after {
+                    content: " *";
+                    color: red;
+                }
+            </style>
         </section>
     </main>
     <footer>
+        <p>Copyright&#169 2020</p>  
+        <ul>
+            <li><a class="top-nav-option" href="bestselling.html"> Bestselling </a> </li>
+            <li><a class="top-nav-option" href="newarrivals.html"> New Arrivals </a> </li>
+            <li><a class="top-nav-option" href="categories.html"> Categories </a> </li>
+            <li><a class="top-nav-option" href="aboutus.html"> About us </a> </li>
+            <li><a class="top-nav-option" href="contact.html"> Contact </a> </li>
+        </ul>
     </footer>
 </body>
 

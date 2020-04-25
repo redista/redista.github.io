@@ -14,6 +14,12 @@
     <meta name="author" content="Ronnie Conlon" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <title> Bookstore </title>
+    <style>
+    #map {
+         margin: 20px;
+          margin-top: 5%;
+        }
+    </style>
 </head>
 
 <body>
@@ -23,11 +29,11 @@
             <p id="logo-text">Bookstore</p>
         </a>
         <nav>
-            <ul>
-                <li><a class="top-nav-option" href="index.html"> Bestselling </a> </li>
-                <li><a class="top-nav-option" href="index.html"> New Arrivals </a> </li>
-                <li><a class="top-nav-option" href="index.html"> Categories </a> </li>
-                <li><a class="top-nav-option" href="aboutus.html"> About us </a> </li>
+            <ul height="100px">
+                <li><a class="top-nav-option" href="bestselling.html"> Bestselling </a> </li>
+                <li><a class="top-nav-option" href="newarrivals.html"> New Arrivals </a> </li>
+                <li><a class="top-nav-option" href="categories.html"> Categories </a> </li>
+                <li id="current" ><a class="top-nav-option" href="aboutus.html"> About us </a> </li>
                 <li><a class="top-nav-option" href="contact.html"> Contact </a> </li>
             </ul>
         </nav>
@@ -36,15 +42,33 @@
         <section id="aboutus">
             <img id="storeFront" src="images/storefront.jpg" alt="Store front" />
             <h1> About Bookstore </h1>
-            <p> 
+            <p class="about-column"> 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+                velit esse cillum dolore ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
+                ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
                 velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 
             </p>
             <p id="contact-text"> You can <a href="./contact.html"> contact us here </a></p>
         </section>
+        <section id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5460.37557295139!2d-122.44329488339002!3d37.75886341650394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e103ceb39b5%3A0x6f49cff2532c1a72!2s732-798%20Castro%20St%2C%20San%20Francisco%2C%20CA%2094114%2C%20USA!5e0!3m2!1sen!2sie!4v1587747567432!5m2!1sen!2sie"
+             width="800px" height="600px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+            </iframe>
+        </section>
     </main>
     <footer>
+        <p>Copyright&#169 2020</p>  
+        <ul>
+            <li><a class="top-nav-option" href="bestselling.html"> Bestselling </a> </li>
+            <li><a class="top-nav-option" href="newarrivals.html"> New Arrivals </a> </li>
+            <li><a class="top-nav-option" href="categories.html"> Categories </a> </li>
+            <li><a class="top-nav-option" href="aboutus.html"> About us </a> </li>
+            <li><a class="top-nav-option" href="contact.html"> Contact </a> </li>
+        </ul>
     </footer>
 </body>
 
