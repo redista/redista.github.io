@@ -191,10 +191,6 @@ h1 {
     border: 2px solid black;
 }
 
-#contact-form #indicate-required {
-    text-emphasis: both;
-}
-
 #contact-section {
     margin: 30px 25% 0px 25%;
 }
@@ -240,4 +236,8 @@ table {
 tr, th, td {
     border: 1px solid #000000;
     text-align: center;
+}
+
+iframe {
+    border: 0;
 }

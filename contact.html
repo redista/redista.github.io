@@ -12,14 +12,21 @@
     <meta name="description" content="Bookstore" />
     <meta name="keywords" content="Book, Store, Bookstore" />
     <meta name="author" content="Ronnie Conlon" />
+    <link rel="icon" type="img/png" href="images/bookicon-64x64.png" sizes="64x64" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <title> Bookstore </title>
+    <style>
+        .required:after {
+            content: " *";
+            color: red;
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <a id="home" class="top-nav-option" href="index.html">
-            <img id="header-logo" class="logo" src="images/logo.jpg" alt="logo" />
+            <img id="header-logo" class="logo" src="images/bookicon.jpg" alt="logo" />
             <p id="logo-text">Bookstore</p>
         </a>
         <nav>
@@ -63,16 +70,11 @@
                     <input type="reset" name="reset" id="Reset">
             </form>
             <p style="margin-left: 138px"> <span class="required"></span> <em><b> indicates a required field </b></em></p>
-            <style>
-                .required:after {
-                    content: " *";
-                    color: red;
-                }
-            </style>
+
         </section>
     </main>
     <footer>
-        <p>Copyright&#169 2020</p>  
+        <p>Copyright&#169; 2020</p>  
         <ul>
             <li><a class="top-nav-option" href="bestselling.html"> Bestselling </a> </li>
             <li><a class="top-nav-option" href="newarrivals.html"> New Arrivals </a> </li>
